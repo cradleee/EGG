@@ -12,6 +12,9 @@
 		B4A8DD4721789BB5006A1F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A8DD4521789BB5006A1F7C /* Main.storyboard */; };
 		B4A8DD4921789BB5006A1F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A8DD4821789BB5006A1F7C /* Assets.xcassets */; };
 		B4A8DD4C21789BB5006A1F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A8DD4A21789BB5006A1F7C /* LaunchScreen.storyboard */; };
+		B4A8DD562178A055006A1F7C /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A8DD552178A055006A1F7C /* 02.png */; };
+		B4A8DD582181CA69006A1F7C /* スクリーンショット 2018-10-25 18.54.21.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A8DD572181CA69006A1F7C /* スクリーンショット 2018-10-25 18.54.21.png */; };
+		B4B461DB2181D49800F51BD8 /* hiyoko-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B461DA2181D49800F51BD8 /* hiyoko-01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		B4A8DD4821789BB5006A1F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4A8DD4B21789BB5006A1F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4A8DD4D21789BB5006A1F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A8DD552178A055006A1F7C /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02.png; path = ../02.png; sourceTree = "<group>"; };
+		B4A8DD572181CA69006A1F7C /* スクリーンショット 2018-10-25 18.54.21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2018-10-25 18.54.21.png"; sourceTree = "<group>"; };
+		B4B461DA2181D49800F51BD8 /* hiyoko-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyoko-01.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		B4A8DD4021789BB5006A1F7C /* EGG */ = {
 			isa = PBXGroup;
 			children = (
+				B4B461DA2181D49800F51BD8 /* hiyoko-01.png */,
+				B4A8DD572181CA69006A1F7C /* スクリーンショット 2018-10-25 18.54.21.png */,
+				B4A8DD552178A055006A1F7C /* 02.png */,
 				B4A8DD4121789BB5006A1F7C /* AppDelegate.swift */,
 				B4A8DD4321789BB5006A1F7C /* ViewController.swift */,
 				B4A8DD4521789BB5006A1F7C /* Main.storyboard */,
@@ -91,11 +100,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Kotobuki Okada";
 				TargetAttributes = {
 					B4A8DD3D21789BB5006A1F7C = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4UJ7YX2M69;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,8 +134,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A8DD4C21789BB5006A1F7C /* LaunchScreen.storyboard in Resources */,
+				B4B461DB2181D49800F51BD8 /* hiyoko-01.png in Resources */,
 				B4A8DD4921789BB5006A1F7C /* Assets.xcassets in Resources */,
+				B4A8DD582181CA69006A1F7C /* スクリーンショット 2018-10-25 18.54.21.png in Resources */,
 				B4A8DD4721789BB5006A1F7C /* Main.storyboard in Resources */,
+				B4A8DD562178A055006A1F7C /* 02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,15 +186,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -223,15 +244,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -260,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UJ7YX2M69;
 				INFOPLIST_FILE = EGG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.kotobouki.EGG;
@@ -272,6 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UJ7YX2M69;
 				INFOPLIST_FILE = EGG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.kotobouki.EGG;
@@ -299,6 +330,7 @@
 				B4A8DD5221789BB5006A1F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

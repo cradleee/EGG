@@ -19,7 +19,26 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    var number: Int = 100
+    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var hiyoko: UIImageView!
+    
+    @IBOutlet weak var egg: UIImageView!
+    @IBOutlet weak var wallpaper: UIImageView!
+    
 
-
-}
-
+    @IBAction func button(_ sender: Any) {
+        number = number - 1
+        label.text = String(number)
+        
+        if number  >= 1 && number <= 100{
+            egg.image = UIImage(named: "02.png" )
+        }else if number == 0{
+            egg.image = UIImage(named: "hiyoko-01.png")
+        }else{
+            egg.image = UIImage(named: "")
+        }
+        }
+        
+    }
